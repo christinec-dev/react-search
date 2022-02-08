@@ -1,0 +1,94 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(112, 224, 131) !important;
+}
+
+.main {
+  width: 80%;
+  margin: 20px auto;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin-bottom: 0.5em !important;
+  text-align: center;
+  padding: 0em;
+  margin-top: 2.3em !important;
+  font-size: 4em !important;
+}
+
+.input-control {
+  width: 50% !important;
+  margin: 0 auto;
+
+}
+
+.search-form {
+  position: relative;
+  margin: 2rem auto;
+}
+
+.suggestion-box {
+  position: absolute;
+  z-index: 1;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 5px;
+  margin-top:1em !important;
+  text-align: center !important;
+  margin-left: 6em !important;
+  width: 90% !important;
+  height: 200px;
+  overflow: auto;
+  display: none;
+}
+
+.suggestion-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.suggestion-box li {
+  border-bottom: 1.7px solid rgb(60, 133, 72);
+  padding: 4px;
+  cursor: pointer;
+}
+
+.suggestion-box li:last-child {
+  border-bottom: none;
+}
+
+.selected-country {
+  margin-top: 1rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.errorMsg {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  .search-form {
+    width: 100%;
+  }
+}
