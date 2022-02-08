@@ -1,5 +1,7 @@
 # React Search
-A simple reusable autocomplete search component made with React, and React Hooks.This was done as part of practice to make reusable React components, so mind the "ugly" UI, as the focus was not on the styling (CSS), but the Javascript & React.
+A simple reusable autocomplete search component made with React, and React Hooks.
+
+This was done as part of practice to make reusable React components, so mind the "ugly" UI, as the focus was not on the styling (CSS), but the Javascript & React.
 
 ## Main Ui
 ![screencapture-localhost-3000-2022-02-08-12_45_13](https://user-images.githubusercontent.com/87696858/152972173-2682fe83-51c2-4737-af5d-63214496525d.png)
